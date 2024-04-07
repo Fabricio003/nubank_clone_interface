@@ -312,10 +312,7 @@ class HomeScreen extends StatelessWidget {
                           color: const Color(0xFFEBEBEB),
                           borderRadius: BorderRadius.circular(12)),
                       child: Row(children: const [
-                        Icon(
-                          Icons.credit_card_rounded,
-                          size: 22,
-                        ),
+                        Icon(Icons.credit_card_rounded, size: 22),
                         SizedBox(width: 12),
                         Text(
                           'Meus cartões',
